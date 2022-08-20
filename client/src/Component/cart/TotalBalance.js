@@ -40,7 +40,7 @@ const TotalBalance = ({ cartItems }) => {
     cartItems.map((item) => {
       price += item.price.mrp;
       discount += item.price.mrp - item.price.cost;
-    });
+  });
     setPrice(price);
     setDiscount(discount);
   };

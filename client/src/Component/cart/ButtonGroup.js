@@ -1,4 +1,4 @@
-import { Box, Button, styled, ButtonGroup } from "@mui/material";
+import { Button, styled, ButtonGroup } from "@mui/material";
 import React from "react";
 
 const Component = styled(ButtonGroup)`

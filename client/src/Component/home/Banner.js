@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import { bannerData } from "../../constants/data";
-import { Grid, styled } from "@mui/material";
+import { styled } from "@mui/material";
 import "react-multi-carousel/lib/styles.css";
 
 const Image = styled("img")(({ theme }) => ({

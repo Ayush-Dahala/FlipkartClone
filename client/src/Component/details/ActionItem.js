@@ -1,5 +1,5 @@
 import { Box, Button, styled } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import FlashOnIcon from "@mui/icons-material/FlashOn";
 import { useNavigate } from "react-router-dom";
