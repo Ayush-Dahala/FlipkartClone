@@ -1,4 +1,3 @@
-import React from "react";
 import { Product } from "./Schema.js";
 import { products } from "./data.js ";
 
