@@ -144,7 +144,7 @@ let paytmParams = {};
   (paytmParams["ORDER_ID"] = uuid()),
   (paytmParams["CUST_ID"] = process.env.Paytm_Cust_Id),
   (paytmParams["TXN_AMOUNT"] = "100"),
-  (paytmParams["CALLBACK_URL"] = "deploymenturl/callback"),
+  (paytmParams["CALLBACK_URL"] = "http://localhost:8000/callback"),
   (paytmParams["EMAIL"] = "ayushdahala4@gmail.com"),
   (paytmParams["MOBILE_NO"] = "1234567890");
 
